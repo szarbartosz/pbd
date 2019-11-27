@@ -1,0 +1,28 @@
+PBD projekt
+
+-konferencje moga byc kilkudniowe
+-z kazdym dniem konferencji zwiazane sa warsztaty
+-warsztaty moga sie powtarzac w roznych dniach (np. programowanie z javy w pon i czw)
+-zapisuja sie osoby indywidualne albo firmy
+-1 osoba zapisuje sie na konkretny dzien -> konferencja na pon -> warsztaty tylko na pon
+-firma zapisana na konferencje -> zapisuje swoich pracownikow na warsztaty
+-cena zapisu na konferencje zalezy od czasu w ktorym jest ona wykupywana -> np 5 progow roznych cen
+-2 tygodnie przed firmy musza uzupelnic dane swoich pracownikow
+
+
+
+1)model konceptualny
+-model er
+
+2)model logiczny
+-trzecia postac normalna
+-warunki integralnosci
+-widoki
+-procedury
+-funkcje
+-triggery
+
+zajecia 28.11:
+-przeczytac tekst z moodla
+-napisac pytania do tekstu -> czego brakuje?; co nie jest dobrze sprecyzowane?;
+-cwiczenia koncowe sql
