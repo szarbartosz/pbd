@@ -155,7 +155,7 @@ inner join adult as a on m.member_no = a.member_no
 where (select count(*) from juvenile as j where j.adult_member_no = m.member_no) <= 3 and a.state like 'ca'
 )
 
---Dla każdego czytelników z arizony i californii: imię nazwisko, suma książek wypożyczonych przez tą osobę i jej dzieci w grudniu 2001
+--Dla każdego czytelnika z arizony i californii: imię nazwisko, suma książek wypożyczonych przez tą osobę i jej dzieci w grudniu 2001
 --osoba żyjąca w Arizonie ma mieć więcej niż 2 dzieci a osoba żyjąca w Californi ma mieć więcej niż 3 dzieci
 use library
 select m.member_no, m.firstname, m.lastname, a.state, (select count(*)
